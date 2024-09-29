@@ -31,7 +31,7 @@ index = pc.Index(index_name)
 
 encoder = HuggingFaceEncoder(name="dwzhu/e5-base-4k")
 #Our retrieval component works, now let's try feeding this into a groq model
-groq_client = groq.Client(api_key="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")
+groq_client = groq.Client(api_key="GROQ_API_KEY")
 
 
 
