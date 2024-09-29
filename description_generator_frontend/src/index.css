@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "El Messiri", sans-serif;
+
+}
+  
+
+.gradient-1{
+    background-image: linear-gradient(to left ,#B5D5FC, #B9E7FD);
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #075DC5, #8cc4de);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.gradient-3{
+    background-image: linear-gradient(to left ,#04346E, #058BCA);
+}
+
+.border-gradient-3 {
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to left ,#04346E, #058BCA) 1;
+  }
+
+
+.shadow{
+    box-shadow: rgba(8, 93, 196, 0.56)  0px 12px 70px 4px;
+}
+
+select {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+  }
+  
+  /* For IE10 */
+  select::-ms-expand {
+    display: none;
+  }

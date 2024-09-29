@@ -1,0 +1,6 @@
+Flask==2.2.5
+Flask-Cors==4.0.0
+pinecone==5.1.0
+semantic-router==0.0.65
+groq==0.11.0
+mtranslate==1.8
